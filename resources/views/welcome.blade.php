@@ -1,0 +1,15 @@
+@extends('layouts.main')
+@section('links')
+    @include('includes._links')
+@endsection
+@section('content')
+    @include('includes._nav')
+    @include('includes._header')
+    @include('includes._boxes')
+    @include('includes._course')
+    @include('includes._why')
+    @include('includes._contact')
+    @include('includes._faq')
+    @include('includes._info')
+    @include('includes._footer')
+@endsection

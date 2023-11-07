@@ -1,0 +1,45 @@
+@import 'colors';
+@import 'mixins';
+@import 'why';
+@import 'course';
+@import 'nav';
+@import 'header';
+@import 'contact';
+@import 'info';
+@import 'faq';
+@import 'footer';
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    z-index: -1000;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+    
+}
+
+section {
+    
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    cursor: default;
+}
+

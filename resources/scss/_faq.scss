@@ -1,0 +1,73 @@
+@import 'colors';
+@import 'mixins';
+
+.faq{
+  position: relative;
+  overflow: hidden;
+  background-color: #f6f6f6;
+ 
+ &__title {
+    font-size: 3rem;
+    padding: 2em 0 0em 0;
+    margin-bottom: 1em;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+}
+  .faq__box{
+    margin-bottom: 5em;
+    &--item {
+
+      border-bottom: 1px solid #e0e0e0;
+    }
+    
+    &--header {
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      padding: 15px 20px;
+      // background-color: $secondary-color;
+      border-bottom: 2px solid $accent-color;
+      
+      h4 {
+        margin: 0;
+      }
+
+    }
+    &--indicator {
+      
+      font-size: 2rem;
+      transition: transform .5s;
+    }
+
+    &--content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s;
+      padding: 0 20px;
+      transition: max-height 0.5s ease-in-out;
+      // transition: 2s;
+      p {
+        margin: 0;
+        padding: 10px 0;
+      }
+    }
+  }
+  
+  .faq__box--item.active {
+    .faq__box {
+      &--indicator {
+        transform: rotate(45deg);
+      }
+    }
+    
+    .faq__box--content {
+      max-height: 200px; // Możesz dostosować wartość w zależności od długości odpowiedzi
+      display: block; // Dodane
+    
+    }
+  }
+
+

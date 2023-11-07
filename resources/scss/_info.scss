@@ -1,0 +1,33 @@
+@import 'colors';
+@import 'mixins';
+
+
+.info {
+    background-image: url('/storage/app/public/info.png');
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+&__text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4em;
+   h1{
+    padding: 1em 1em;
+   }
+    p {
+
+        padding: 1em 1em;
+    }
+}
+}
+
+.white-shadow {
+width: 100%;
+min-height: 500px;
+padding-top: 4em;
+background-color: rgba($color: #ffffff, $alpha: .9);
+
+}

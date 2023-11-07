@@ -1,0 +1,13 @@
+@import 'colors';
+@import 'mixins';
+
+
+footer {
+    display: flex;
+    background-color: $main-color;
+    color:$white-color;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
