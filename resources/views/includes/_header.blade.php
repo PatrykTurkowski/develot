@@ -42,7 +42,7 @@
 </header> --}}
 
 {{-- dodac w kółeczku gębę/ popiersie albo vyve  --}}
-<header class="header">
+<header class="header" style="background-image: url('{{ asset('/storage/hero-pc.png') }}');">
     <div class="shadow">
         <div class="header__text">
             <h1 class="">Zarządzanie nieruchomościami</h1>
