@@ -47,7 +47,8 @@
         <div class="header__text">
             <h1 class="">Zarządzanie nieruchomościami</h1>
             <h2 class="">Kluczem Do Twojego Spokoju</h2>
-            <button class ="header__button"><i class="fa-solid fa-phone"></i>Bezpłatna Konsultacja</button>
+            <a href="#contact"><button class ="header__button"><i class="fa-solid fa-phone"></i>Bezpłatna
+                    Konsultacja</button></a>
 
         </div>
         <div class="main-captions wrapper">

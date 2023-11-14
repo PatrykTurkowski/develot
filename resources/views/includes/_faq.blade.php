@@ -8,8 +8,8 @@
                     <span class="faq__box--indicator"><i class="fa-solid fa-plus"></i></span>
                 </div>
                 <div class="faq__box--content">
-                    <p>Planujemy długoterminowe partnerstwo i zobowiązanie w stosunku do wynajętego mieszkania. Nasz
-                        optymalny okres wynajmu oscyluje w przedziale od 5 do 10 lat. Jesteśmy przekonani, że taki czas
+                    <p>Planujemy długoterminowe partnerstwo i zobowiązanie w stosunku do wynajętego mieszkania. Mój
+                        optymalny okres wynajmu oscyluje w przedziale od 5 do 10 lat. Jestem przekonany, że taki czas
                         pozwoli na stabilną i wzajemnie korzystną współpracę, a także na osiągnięcie spodziewanych
                         korzyści z podnajmu przy jednoczesnym zachowaniu najwyższej dbałości o stan mieszkania. </p>
                 </div>
@@ -21,9 +21,11 @@
                     <span class="faq__box--indicator"><i class="fa-solid fa-plus"></i></span>
                 </div>
                 <div class="faq__box--content">
-                    <p>Mieszkali by młodzi pracownicy korporacji, doktoranci, czy osoby pracująco studiując. W ramach
-                        mojej działalności współpracuję np. z korporacjami i udostępniam im spokojne, ładne mieszkania,
-                        gdzie by mogli mieszkać i spokojnie bytować</p>
+                    <p>W mieszkaniu które od Ciebie wynajmę i będę opłacał, mieszkali by młodzi pracownicy korporacji,
+                        doktoranci, czy osoby pracująco studiując. W ramach mojej działalności współpracuję np. z
+                        korporacjami i udostępniam im spokojne, ładne mieszkania, gdzie by mogli mieszkać i spokojnie
+                        bytować.
+                    </p>
                 </div>
             </div>
             <div class="faq__box--item">
@@ -44,10 +46,10 @@
                     <span class="faq__box--indicator"><i class="fa-solid fa-plus"></i></span>
                 </div>
                 <div class="faq__box--content">
-                    <p>W przypadku wystąpienia uszkodzeń, jako zarządzający nieruchomością, natychmiast podejmuję
-                        odpowiednie kroki, aby je naprawić. Koszty napraw pokrywają podnajemcy lub są pokrywane z
-                        kaucji, którą wpłacają na początku najmu. Wszystkie kwestie związane z utrzymaniem i naprawami
-                        mieszkania są moją odpowiedzialnością, właściciel nieruchomości nie jest w to angażowany.</p>
+                    <p>W przypadku wystąpienia usterki w mieszkaniu spowodowanych przez podnajemców, natychmiast zajmuję
+                        się ich naprawą. Dbam o to, aby mieszkanie było zawsze w idealnym stanie, więc nie musisz się
+                        martwić o drobne problemy. Chyba że wolisz być na bieżąco z każdą naprawą, zazwyczaj nie
+                        informuję o takich sytuacjach, aby oszczędzić Ci czas i kłopoty.</p>
                 </div>
             </div>
             <div class="faq__box--item">
@@ -57,10 +59,8 @@
                     <span class="faq__box--indicator"><i class="fa-solid fa-plus"></i></span>
                 </div>
                 <div class="faq__box--content">
-                    <p>Oczywiście, jestem otwarty na zawarcie w umowie klauzuli pozwalającej na regularne inspekcje
-                        stanu mieszkania. Umówimy się na odpowiedni termin, który będzie pasował obu stronom, aby można
-                        było sprawdzić stan nieruchomości. Moim celem jest utrzymanie mieszkania w dobrym stanie i
-                        zapewnienie, że jest ono odpowiednio dbane.</p>
+                    <p>Oczywiście, umówimy się na odpowiedni termin, który będzie pasował obu stronom, aby można
+                        było sprawdzić stan nieruchomości.</p>
                 </div>
             </div>
             <div class="faq__box--item">
@@ -84,7 +84,7 @@
                     <span class="faq__box--indicator"><i class="fa-solid fa-plus"></i></span>
                 </div>
                 <div class="faq__box--content">
-                    <p>Proszę się nie martwić, sąsiedzi mogą zostać ;), poważnie wszystkim nam zależy na spokoju i
+                    <p>Proszę się nie martwić, sąsiedzi mogą zostać ;),a poważnie wszystkim nam zależy na spokoju i
                         chcemy z Panem współpracować długoterminowo. I właśnie dlatego w umowie z podnajemcami wprowadzę
                         klauzulę zgodnie z którą zobowiążą się do m.in. nie robienia imprez pod rygorem kary. Gdyby
                         takie sytuacje się pojawiły proszę o sygnał i szybko to załatwię.</p>
@@ -98,7 +98,8 @@
                 </div>
                 <div class="faq__box--content">
                     <p>Mieszkanie będzie zarabiać, a na Twoje konto będzie wpływał na czas czynsz, nie musisz się
-                        martwić o to że sam będzie Pan musiał kogoś szukać i wszystkiego dopilnowywać.</p>
+                        martwić o to że sam będzie Pan musiał kogoś szukać i wszystkiego dopilnowywać. Współpraca ze mną
+                        to subskrypcja na spokój ducha.</p>
                 </div>
             </div>
             <div class="faq__box--item">
@@ -108,7 +109,7 @@
                     <span class="faq__box--indicator"><i class="fa-solid fa-plus"></i></span>
                 </div>
                 <div class="faq__box--content">
-                    <p>Tak, ceny również mogą spaść, dlatego możemy się umówić na wprowadzenie zapisu o podwyżce cen o
+                    <p>Tak, możemy się umówić na wprowadzenie zapisu o podwyżce cen o
                         coroczny wskaźnik inflacji</p>
                 </div>
             </div>

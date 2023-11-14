@@ -15,14 +15,9 @@
         <div class="contact__info--box">
             <i class="fa-solid fa-at"></i>
             <h2>Napisz</h2>
-            <p>patryk.turkowski21@gmail.com</p>
+            <p>biuro@patrykturkowski.pl</p>
         </div>
-        {{-- <div class="contact__info--box">
-            <i class="fa-solid fa-house"></i>
-            <h2>Dane firmy</h2>
-            <p>Patryk Turkowski</p>
-            <p>NIP 1182262975</p>
-        </div> --}}
+
     </div>
     <div class="contact__form">
         <h1>Formularz Kontaktowy</h1>

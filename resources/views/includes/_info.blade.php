@@ -9,7 +9,7 @@
                 ustalona suma. Brak stresu związany z opóźnieniami w płatnościach czy pustostanami.</p>
 
             <p>Gwarantujemy solidną weryfikację najemców, regularne inspekcje i dbałość o Twoją nieruchomość. A
-                formalności? Załatwisz je online, kiedy tylko zechcesz.</p>
+                formalności?</p>
 
             <p>Wyobraź sobie wynajem bez stresu, z gwarantowanym dochodem każdego miesiąca. Brzmi kusząco, prawda?</p>
 
