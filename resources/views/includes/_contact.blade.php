@@ -26,19 +26,37 @@
     </div>
     <div class="contact__form">
         <h1>Formularz Kontaktowy</h1>
-        <form action="adres_serwera.php" method="post">
-            <label for="email">Imię i Nazwisko</label>
-            <input type="email" id="email" name="email" placeholder="" required>
-            <label for="email">numer telefonu</label>
-            <input type="email" id="email" name="email" placeholder="" required>
+        <form action="{{ route('send.email') }}" method="post">
+            @csrf <!-- Token CSRF -->
+            <label for="name">Imię i Nazwisko</label>
+            <input type="text" id="name" name="name" placeholder="" required>
+            @error('name')
+                <span class="error">{{ $message }}</span>
+            @enderror
+
+            <label for="phone">Numer telefonu</label>
+            <input type="text" id="phone" name="phone" placeholder="" required>
+            @error('phone')
+                <span class="error">{{ $message }}</span>
+            @enderror
+
             <label for="email">Adres e-mail:</label>
             <input type="email" id="email" name="email" placeholder="" required>
+            @error('email')
+                <span class="error">{{ $message }}</span>
+            @enderror
 
-            <label for="text">Treść wiadomości:</label>
-            <textarea id="text" name="text" rows="4"
+            <label for="message">Treść wiadomości:</label>
+            <textarea id="message" name="message" rows="4"
                 placeholder="Panie Patryku, nie mogę się doczekać naszej współpracy! :)" required></textarea>
-            {{--  --}}
+            @error('message')
+                <span class="error">{{ $message }}</span>
+            @enderror
+
+            <input type="hidden" name="to"
+                value="{{ config('mail.from_address', 'pytania@patrykturkowski.pl') }}">
             <button type="submit">Wyślij</button>
         </form>
     </div>
+
 </section>
