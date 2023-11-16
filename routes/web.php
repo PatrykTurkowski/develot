@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Mail\ContactController;
+use App\Http\Controllers\ThankYouController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::post('/send', [ContactController::class, 'send'])->name('send.email');
+Route::post('/wyslij', ContactController::class)->name('send.email');
+Route::get('/dziekuje', ThankYouController::class)->name('thankYou');
+
+// Route::get('/dziekuje', function () {
+//     return view('ThankYou');
+// })->name('thankYou');

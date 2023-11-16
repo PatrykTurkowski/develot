@@ -1,0 +1,9 @@
+@extends('layouts.main')
+@section('links')
+    @include('includes._linksThankYou')
+@endsection
+@section('content')
+    @include('includes._navThankYou')
+    @include('includes._thankYouBody')
+    @include('includes._footer')
+@endsection

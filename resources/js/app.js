@@ -75,3 +75,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const btn = document.querySelector('.back-to-top-btn');
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 1000) {
+            btn.classList.remove('hidden');
+        } else {
+            btn.classList.add('hidden');
+        }
+    });
+});

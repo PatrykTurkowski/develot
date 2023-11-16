@@ -4,13 +4,17 @@
 .contact{
     display: flex;
     background-color: $secondary-color;
-
+    // max-height: 100vh;
+    box-shadow: inset 0 15px 5px -5px rgba(0, 0, 0, 0.427);
     &__info{
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         background-color: $secondary-color;
+        // height: 100%;
         width: 35%;
         padding: 4em 0;
-        box-shadow: inset 0 15px 5px -5px rgba(0, 0, 0, 0.427), inset 0 -15px 5px -5px rgba(0, 0, 0, 0.427);
+        box-shadow: inset 0 15px 5px -5px rgba(0, 0, 0, 0.427);
         text-align: center;
         &--title {
          h1{
@@ -27,24 +31,31 @@
                 padding-bottom: 0.6em;
             }
             h2 {
-
+                font-size: 4rem;
+                padding-bottom: .4em;
+                font-weight: bold;
             }
-            p{
-                padding-top: .6em;
+            a{
+                font-size: 2.5rem;
+                
+                font-weight: bold;
+                color: $accent-color;
+                text-decoration: none;
             }
         }
     }
     &__form {
         
         background-color: $secondary-color;
-        box-shadow: inset 0 15px 5px -5px rgba(0, 0, 0, 0.427), inset 0 -15px 5px -5px rgba(0, 0, 0, 0.427);
-        padding: 4em 0;
+        box-shadow: inset 0 15px 5px -5px rgba(0, 0, 0, 0.427);
+        padding-top: 2em;
         width: 65%;
         h1{
             text-align: center;
+            padding-bottom: 1em;
         }
         form {
-            text-align: center;
+            // text-align: center;
             align-items: center;
             display: flex;
             flex-direction: column;
@@ -52,17 +63,17 @@
         }
         label{
             width: 80%;
-            margin-top: .5em;
+            // margin-top: .5em;
             font-weight: bold;
 
             &:first-child{
-                margin-top: 2em;
+                // margin-top: 2em;
             }
         }
         input {
             width: 80%;
             height: 3em;
-            border:none;
+            border:2px solid #000;
             margin: 1.5em;
             border-radius: 10px;
             padding-left:1em ;
@@ -70,7 +81,7 @@
         textarea {
             width: 80%;
             height: 200px;
-            border:none;
+            border:2px solid #000;
             margin: 1.5em;
             border-radius: 10px;
             padding:1em ;
@@ -113,6 +124,19 @@
             width: 100%;
          box-shadow: none;
         }
-
+    
+        &__info{
+            
+            &--box{
+           
+                a{
+                    font-size: 2rem;
+                
+                }
+            }
+        }
     }
+
+   
+       
 }

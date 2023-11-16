@@ -10,6 +10,7 @@
     @include('includes._why')
     @include('includes._contact')
     @include('includes._faq')
+    @include('includes._about')
     @include('includes._info')
     @include('includes._footer')
 @endsection

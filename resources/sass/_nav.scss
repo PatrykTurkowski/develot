@@ -62,7 +62,7 @@
 .nav {
     display: flex;
     
-    justify-content: space-between;
+    // justify-content: space-between;
     padding:0em 2em;
     
     min-height: 60px;
@@ -70,23 +70,68 @@
         display: flex;
         justify-content: center;
     }
-    &__item{
+    &__logo{
+        height: 60px;
+        width: 60px;
+    }
+    &__title{
             color: $white-color;
             display: flex;
             align-items: center; /* Wyśrodkowanie w pionie */
             text-decoration: none;
             
             text-wrap: nowrap;
-            margin: .2em 0em;
+            margin: .2em .8em .2em 0em;
             padding: 0em 0.4em;
             font-size: 2.5rem;
             font-weight: bold;
             transition:color .3s;
             &:hover{
-                color: $secondary-color;
+               
+                    color: $accent-color;
+                
             }
+            
     }
+    &__item{
+ 
+           
 
+
+            color: $white-color;
+            display: flex;
+            align-items: center; /* Wyśrodkowanie w pionie */
+            text-decoration: none;
+            
+            text-wrap: nowrap;
+            // margin: .3em 0em;
+            padding: .4em 0.4em;
+            // font-size: 2.5rem;
+            font-weight: bold;
+            transition:.3s;
+            &:hover{
+                color: $accent-color;
+            }
+            i{
+                padding-right: 0.5em;
+            }
+           
+         
+            
+    }
+    
+    .nav__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; /* Wyrównanie elementów w pionie */
+        width: 100%; /* Pełna szerokość kontenera */
+    }
+    
+    .nav__item:last-child {
+        color: $accent-color;
+        font-size: 2.5rem;
+        margin-left: auto;
+    }
 }
 
 
@@ -134,13 +179,35 @@
     z-index: 9998; // Niższy niż menu, ale wyższy niż reszta strony
   }
 
+  .back-to-top-btn {
+    position: fixed; /* Pozycjonowanie absolutne względem okna przeglądarki */
+    right: 20px; /* Odległość od lewej krawędzi */
+    bottom: 20px; /* Odległość od dolnej krawędzi */
+    background-color: green; /* Zielone tło */
+    color: black; /* Czarny tekst */
+    padding: 1.4em; /* Wewnętrzne wypełnienie */
+    text-decoration: none; /* Usunięcie podkreślenia tekstu */
+    border: none; /* Brak obramowania */
+    cursor: pointer; /* Kursor wskazujący */
+    border-radius: 50%; /* Lekko zaokrąglone rogi */
+    z-index: 1000; /* Zapewnia, że przycisk będzie na wierzchu innych elementów */
+}
+.hidden {
+    display: none;
+}
 
-
-  @media(max-width:767px){
+  @media(max-width:912px){
   
-    .nav__items{
+    .nav__item{
         display: none;
+       
     }
+    .nav, .nav__items{
+        font-size: 0rem;
+     justify-content: start !important;
+    }
+
+    
     .burger-btn{
        
         display: block;
@@ -153,5 +220,11 @@
         display: none;
        
     }
+    .nav__title {
+        display: none;
+    }
 
 }
+
+
+

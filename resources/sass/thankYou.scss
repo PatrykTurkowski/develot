@@ -1,13 +1,7 @@
 @import 'colors';
 @import 'mixins';
-@import 'why';
-@import 'course';
 @import 'nav';
-@import 'header';
-@import 'contact';
-@import 'info';
-@import 'about';
-@import 'faq';
+@import 'thanksYouBody';
 @import 'footer';
 
 
@@ -36,21 +30,11 @@ body{
     
 }
 
+section {
+    
+}
 
 p,h1,h2,h3,h4,h5,h6{
     cursor: default;
-}
-
-
-.row {
-    display: flex;
-    width: 100%;
-}
-
-@media (max-width:767px) {
-    .row {
-      
-        flex-direction: column;
-    }
 }
 

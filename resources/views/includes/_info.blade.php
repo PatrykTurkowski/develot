@@ -8,13 +8,16 @@
             <p>Z nami zawsze możesz liczyć na pewność. Niezależnie od sytuacji, co miesiąc na Twoje konto wpływa
                 ustalona suma. Brak stresu związany z opóźnieniami w płatnościach czy pustostanami.</p>
 
-            <p>Gwarantujemy solidną weryfikację najemców, regularne inspekcje i dbałość o Twoją nieruchomość. A
-                formalności?</p>
+            <p>Gwarantujemy solidną weryfikację najemców, regularne inspekcje i dbałość o Twoją nieruchomość.</p>
 
             <p>Wyobraź sobie wynajem bez stresu, z gwarantowanym dochodem każdego miesiąca. Brzmi kusząco, prawda?</p>
 
+            <a href="#contact" style="align-self: end"><button class ="header__button"><i
+                        class="fa-solid fa-phone"></i>Bezpłatna
+                    Konsultacja</button></a>
 
         </div>
+
     </div>
 
 

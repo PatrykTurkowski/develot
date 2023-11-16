@@ -10,24 +10,17 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-    public function send(ContactRequest $request)
+    public function __invoke(ContactRequest $request)
     {
 
         $mail_data = $request->validated();
-        Mail::to($mail_data['to'])->send(new ContactEmail($mail_data));
-        dd($mail_data);
+        if (env('APP_ENV') != 'production') {
+            $mail_data['to'] = 'example@example.com';
+        }
+        // dd($mail_data);
+        Mail::to('example@example.com')->send(new ContactEmail($mail_data));
 
-        return redirect(route('welcome'));
+
+        return redirect(route('thankYou'));
     }
-    // public function send(ContactRequest $request)
-    // {
-
-    //     $data = $request->validated();
-    //     // Tworzenie i wysyłanie emaila
-    //     Mail::to(config('mail.from_address'))->send(new ContactEmail($data));
-    //     dd($data);
-
-    //     // Możesz tu dodać wiadomość flash lub przekierowanie
-    //     return back()->with('success', 'Wiadomość została wysłana.');
-    // }
 }

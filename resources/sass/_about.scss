@@ -1,0 +1,63 @@
+@import 'colors';
+@import 'mixins';
+
+
+.about {
+    &__background {
+
+    }
+    &__content{
+        display: flex;
+    }
+    &__image {
+        width: 50%;
+        img {
+            max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+        }
+    }
+    &__text {
+        width: 50%;
+        padding: 2em;
+        h1{
+            padding-bottom: 2em;
+            color: $accent-color;
+        }
+        &--content{
+
+            p{
+                padding: 1em 0;
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .about {
+        &__background {
+    
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            // text-align: center;
+            align-items: center;
+            // margin-top: 2em;
+        }
+        &__image {
+            width: 100%;
+            img {
+                max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+            }
+        }
+        &__text {
+            width: 100%;
+            padding: 2em;
+    }
+}
+
+}

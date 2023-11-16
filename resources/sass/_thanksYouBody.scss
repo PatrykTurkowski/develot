@@ -1,0 +1,120 @@
+.thanks {
+  min-height: calc(100vh - 110px);
+display: flex;
+align-items: center; /* Pionowe centrowanie */
+justify-content: center; /* Poziome centrowanie */
+&__image
+  {
+    display: flex;
+   
+    // height: 100vh; /* Pełna wysokość widoku */
+    width: 50%;
+    height: 100%;
+    img {
+      max-width: 90%;
+      max-height: 90%;
+      overflow: hidden;
+      object-fit: cover; /* Zapobiega rozciąganiu obrazu */
+      
+    }
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center; /* Centrowanie pionowe, jeśli potrzebne */
+   
+    font-weight: bold;
+    width: 50%;
+    padding: 2em;
+    letter-spacing: 1.1;
+    line-height: 1.5;
+    h2{
+      font-size: 3rem;
+      padding: 1em;
+      align-self: start;
+      // padding-bottom: 2em;
+      // text-align: center;
+      color:$accent-color;
+    }
+    p{
+      
+      padding: 1em;
+    }
+    i {
+      align-self: start;
+      color: #1877F2;
+     
+      font-size: 4rem;
+      &:hover{
+       
+          cursor: pointer;
+      
+      }
+    }
+    &--fb{
+      padding-top: .5em;
+      padding-left: 1em;
+      align-self: start;
+      margin-bottom: 2em;
+    
+    }
+  }
+  &__button {
+    
+    padding:  1em;
+    background-color: $accent-color;
+    border:none;
+    border: solid 2px $accent-color;
+    // font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 2em;
+    font-weight: bold;
+    transition: .3s;
+    &:hover{
+      background-color: $white-color;
+      cursor: pointer;
+  
+    }
+    i{
+      color: $main-color;
+      padding:0;
+      font-size: 2rem;
+      padding-right: 0.5em;
+    }
+  }
+}
+.thanks__button:hover::after {
+  cursor: default;
+}
+
+@media(max-width:912px){
+  
+
+  .thanks {
+    // min-height: calc(100vh - 110px);
+  display: flex;
+  flex-direction: column;
+
+  &__content{
+ 
+    width: 100%;
+  
+  }
+ &__image {
+  align-items: center; /* Pionowe centrowanie */
+justify-content: center; /* Poziome centrowanie */
+  width: 100%;
+  margin: 0;
+  padding: 2em;
+  margin-top: 2.5em;
+  img{
+
+    border-radius: 50%;
+  }
+ }
+  }
+
+  
+
+}
